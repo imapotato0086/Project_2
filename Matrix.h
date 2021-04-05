@@ -38,7 +38,7 @@ public:
      *
      * @param original - matrix to copy from
      */
-    Matrix(Matrix& original);
+    Matrix(const Matrix& original);
 
     /**
      *
