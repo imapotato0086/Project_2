@@ -7,7 +7,7 @@
 Matrix::Matrix(int rows, int cols)
     : rows(rows), cols(cols){ }
 
-//TODO : Check for size consistancy in Copy Constructor
+//TODO : Check for size consistency in Copy Constructor
 Matrix::Matrix(const Matrix& Matrix)
     : rows(Matrix.rows), cols(Matrix.cols)
 {// Start Copy Constructor
