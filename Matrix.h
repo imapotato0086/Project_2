@@ -41,6 +41,11 @@ public:
     Matrix(const Matrix& original);
 
     /**
+     * Destructor
+     */
+    ~Matrix();
+
+    /**
      *
      * @param Matrix - matrix to equal from
      */
